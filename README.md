@@ -12,7 +12,7 @@ Combining the output of the sigcheck tool with a git repo can provide a history 
 3.  Unzip Sigcheck tool into the git repo
 4.  Open command prompt where sigcheck is located
 5.  Execute the following command: sigcheck -q -tv -c > mycerts.csv
-6.  The v option ensures that only certificates not rooted to Microsoft's trusted will be in the ouput (leave it off if you want all certs in the output) 
+6.  The v option ensures that only certificates not rooted to Microsoft's trusted list will be in the ouput (leave it off if you want all certs in the output) 
 7.  Examine mycerts.csv (ideally the first line will be column headers and the next line will say: No certificates found.)
 8.  Commit mycerts.csv to the git repo
 9.  Compare diffs using a git tool like https://desktop.github.com/

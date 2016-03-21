@@ -16,6 +16,7 @@ Combining the output of the sigcheck tool with a git repo can provide a history 
 7.  Examine mycerts.csv (ideally the first line will be column headers and the next line will say: No certificates found.)
 8.  Compare diffs using a git tool like https://desktop.github.com/ (see screenshot below)
 9.  Commit mycerts.csv to the git repo
+10.  Periodically redo steps 4 through 9
 
 
 ## Example Evil Certificate and Testing the Diff
